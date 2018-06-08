@@ -1,0 +1,12 @@
+body{
+    background-color: lightgrey;
+}
+
+
+.block{
+    background-color: aqua;
+    height: 5px;
+    width:  0%;
+    max-width: 500px;
+}
+
