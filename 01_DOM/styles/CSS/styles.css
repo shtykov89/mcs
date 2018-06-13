@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+} 
+@keyframes fall{
+    from {
+        bottom: 400px;
+    } to {
+        bottom: 0px;
+    }
+}
+.page {
+    height: 100vh;
+    position: relative;
+}
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    background-position: center;
+    position: absolute;
+    left:50%;
+    margin-left: -50px;
+    bottom: 400px;
+}
+.aminated {
+    animation: fall 1st linear infinite alternate;
+}
+/* .colored{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+} */
